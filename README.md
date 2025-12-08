@@ -28,3 +28,16 @@ Assurez-vous d'avoir installé :
 git clone [https://github.com/hafsimedamine/Angular-Framework.git](https://github.com/hafsimedamine/Angular-Framework.git)
 cd Angular-Framework
 npm install
+
+📂 Structure du Projet
+```text
+src/
+├── app/
+│   ├── components/    # Les vues de l'application
+│   ├── services/      # Logique métier et appels API
+│   ├── model/         # Classes et Interfaces de données
+│   ├── app.module.ts  # Module racine
+│   └── app-routing.module.ts # Configuration des routes
+├── assets/            # Images, styles globaux
+└── environments/      # Variables d'environnement (dev/prod)
+```
