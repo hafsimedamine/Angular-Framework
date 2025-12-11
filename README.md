@@ -1,43 +1,58 @@
-# 🅰️ Angular Framework Project
+# Angular-Framework
 
-![Angular](https://img.shields.io/badge/Angular-14%2B-red)
-![TypeScript](https://img.shields.io/badge/TypeScript-4.7%2B-blue)
-![NodeJS](https://img.shields.io/badge/Node.js-16%2B-green)
+![GitHub repo size](https://img.shields.io/github/repo-size/hafsimedamine/Angular-Framework) 
+![GitHub language count](https://img.shields.io/github/languages/count/hafsimedamine/Angular-Framework)
+![GitHub last commit](https://img.shields.io/github/last-commit/hafsimedamine/Angular-Framework)
 
-Ce dépôt contient une application Web développée avec le framework **Angular**. Il illustre les concepts fondamentaux du développement Front-End moderne : composants, services, routage et interaction avec des APIs.
+Projet Angular pour **Digital Banking**.  
 
-## 🌟 Fonctionnalités
+---
 
-* **Architecture en Composants** : Réutilisation et modularité du code.
-* **Routing** : Navigation fluide type SPA (Single Page Application).
-* **Services & Injection de Dépendances** : Gestion de la logique métier et des données.
-* **Data Binding** : Liaison bidirectionnelle entre le HTML et le TypeScript.
-* **Communication HTTP** : Consommation de services REST (si applicable).
+## 📂 Contenu
 
-## 🚀 Installation et Lancement
+- `src/app` : Composants Angular  
+- `src/assets/mes-images` : Images personnelles (`img1.png`, `img2.png`)  
+- Autres fichiers Angular standards (`angular.json`, `package.json`, etc.)  
 
-Pour faire tourner ce projet localement, suivez ces étapes :
+---
 
-### Prérequis
-Assurez-vous d'avoir installé :
-* [Node.js](https://nodejs.org/) (version LTS recommandée)
-* Angular CLI : `npm install -g @angular/cli`
+## 🚀 Installation et lancement
 
-### 1. Cloner et installer
+1. Cloner le projet depuis GitHub :
+
 ```bash
-git clone [https://github.com/hafsimedamine/Angular-Framework.git](https://github.com/hafsimedamine/Angular-Framework.git)
+git clone https://github.com/hafsimedamine/Angular-Framework.git
 cd Angular-Framework
+Installer les dépendances :
+
 npm install
 
-📂 Structure du Projet
-```text
-src/
-├── app/
-│   ├── components/    # Les vues de l'application
-│   ├── services/      # Logique métier et appels API
-│   ├── model/         # Classes et Interfaces de données
-│   ├── app.module.ts  # Module racine
-│   └── app-routing.module.ts # Configuration des routes
-├── assets/            # Images, styles globaux
-└── environments/      # Variables d'environnement (dev/prod)
-```
+
+Lancer le serveur Angular :
+
+ng serve
+
+
+Ouvrir dans le navigateur :
+
+http://localhost:4200
+
+⚙️ Fonctionnalités
+
+Barre de navigation avec boutons : Home, Products, News
+
+Projet Angular prêt à être personnalisé
+
+Dossier mes-images pour ajouter ou modifier des images sans toucher au code
+
+✨ Personnalisation
+
+Ajouter vos propres images dans src/assets/mes-images
+
+Modifier les composants Angular pour personnaliser l’affichage
+
+📌 Notes
+
+Ce projet est entièrement géré par moi, toutes les images et modifications sont personnelles.
+
+Le projet est prêt pour le développement et l’ajout de fonctionnalités Angular supplémentaires.
